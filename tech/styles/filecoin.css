@@ -1,0 +1,14 @@
+:root{
+    --color-bg: #0190ff; 
+    --secondary-color: #f5ad01;
+}
+
+#back{
+    color: black;
+}
+
+header{
+    background-image: url("../../img/filecoin.png");
+    background-size: 18vh;
+}
+
