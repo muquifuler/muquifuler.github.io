@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/preindex.css">
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300&display=swap');
+    </style>
+    <div class="div-left">
+        <img src="./img/right.png" id="flecha" onclick="Go()">
+    </div>
+    <div class="div-right">
+        <div>
+            <p id="welcome">
+                <img id="imgsss" src="./img/bnb.png" alt="">
+                <span class="bnb-text">Dapp</span>-<span class="eth-text">Stack</span>
+                <img id="imgsss" src="./img/eth.png" alt="">
+            </p>
+        </div>
+        <div class="flex">
+            <button class="card bnb" id="bnb" onclick="Connect()">Connect wallet to BSC</button>
+            <button class="card eth" id="eth" onclick="Connect()">Connect wallet to Mainnet</button>
+        </div>
+        <div class="flex bloq-imgss">
+            <img class="imgss imgss-met" src="./img/metamask.png" alt="">
+            <img class="imgss" src="./img/javascript.png" alt="">
+            <img class="imgss imgss-sol" src="./img/solidity.svg" alt="">
+            <img class="imgss" src="./img/ethereum.png" alt="">
+            <img class="imgss" src="./img/truffle.png" alt="">
+            <img class="imgss" src="./img/openzeppelin.png" alt="">
+            <img class="imgss" src="./img/chainlink.png" alt="">
+            <img class="imgss" src="./img/filecoin.png" alt="">
+        </div>
+        <div>
+            <a href="https://unlockpadlock.gitbook.io/dappstack/" class="links bnb">Whitepaper</a>
+            <a href="./editors.html" class="links eth">Editors Panel</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/lib/index.js" integrity="sha256-npH2u6SrLONpdNW4QOj4YmDEVeTs3o4RttcpdIkfOMw=" crossorigin="anonymous"></script>
+    <script src="./javascript/preindex.js"></script>
+    <script src="./javascript/blockchain.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+:root{
+    --color-bg: #3a3a55; 
+    --secondary-color: #63d2f9;
+}
+
+#back{
+    color: aliceblue;
+}
+
+header{
+    background-image: url("../../img/openzeppelin.png");
+    background-size: 11vh;
+}
+
+#btn-main:hover{
+    color: #e7f2fa;
+}
