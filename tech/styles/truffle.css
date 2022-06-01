@@ -1,0 +1,13 @@
+:root{
+    --color-bg: #3fe0c5; 
+    --secondary-color: #5e464d;
+}
+
+#back{
+    color: rgb(26, 26, 26);
+}
+
+header{
+    background-image: url("../../img/truffle.png");
+    background-size: 13vh;
+}

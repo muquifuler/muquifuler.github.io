@@ -1,0 +1,23 @@
+:root{
+    --color-bg: #e7f2fa; 
+    --secondary-color: #5c6164;
+}
+
+#back{
+    color: rgb(26, 26, 26);
+}
+
+header{
+    background-image: url("../../img/solidity.svg");
+    background-size: 20vh;
+}
+
+#btn-main{
+    border: 2px solid  var(--secondary-color);
+}
+
+#btn-main:hover{
+    transition-duration: 0.2s;
+    background-color:  var(--secondary-color);
+    color: var(--color-bg);
+}
