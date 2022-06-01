@@ -1,4 +1,4 @@
-# Dapp-Stack -> https://muquifuler.github.io/
+# dappstack.com -> https://muquifuler.github.io/ 
 
   An open source educational platform to learn how to build a professional dapp
   
